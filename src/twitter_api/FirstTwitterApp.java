@@ -18,10 +18,10 @@ public class FirstTwitterApp {
 		ConfigurationBuilder cb = new ConfigurationBuilder();
     	
 		cb.setDebugEnabled(true)
-    	  .setOAuthConsumerKey("f9f4LVnhnbCfesca7Csvrwt7e")
-    	  .setOAuthConsumerSecret("x9V8TqviFS2CV3k8NxWTtvKMIBTzL85lRFOXUPGxeo3DMvfOYF")
-    	  .setOAuthAccessToken("926397594548539393-iN3cJA5Hhi3Ye3tVkz7y3uk2n8W9OJT")
-    	  .setOAuthAccessTokenSecret("Hh542sfUYkVKmDJTLA8zHJ3v2OclPlVW2FIWVvYEX74rQ");
+    	  .setOAuthConsumerKey("XY")
+    	  .setOAuthConsumerSecret("XY")
+    	  .setOAuthAccessToken("XY-XY")
+    	  .setOAuthAccessTokenSecret("XY");
 
 		Twitter twitter = new TwitterFactory(cb.build()).getInstance();
 
